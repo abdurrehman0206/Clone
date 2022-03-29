@@ -1,5 +1,6 @@
 body {
-	margin-top: -0.1em;
+	margin-top: 0em;
+	margin-left: 0em;
 	font-family: "Roboto", sans-serif;
 }
 a {
@@ -13,8 +14,6 @@ ul {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	border: 1px solid rgb(14, 22, 174);
-	// margin: 0em;
 }
 
 /* MAIN NAVIGATION BAR START */
@@ -29,8 +28,8 @@ ul {
 		justify-content: center;
 		align-items: center;
 		margin-top: 0em;
-		// margin-left: -9px;
-		// margin-right: -9px;
+		margin-left: 0em;
+		margin-right: 0em;
 		height: 25px;
 		background-color: #ececec;
 		li {
@@ -62,7 +61,7 @@ ul {
 	object-fit: contain;
 	border: 1px solid magenta;
 	padding: 10px;
-	
+
 	position: sticky;
 	top: 25px;
 	// max-width: 100%;
@@ -98,8 +97,8 @@ ul {
 		}
 	}
 	.logo {
-		margin-left:-20px;
-		padding-right: 25px;
+		margin-left: -20px;
+		padding-right: 65px;
 		img {
 			width: 135px;
 			height: 41px;

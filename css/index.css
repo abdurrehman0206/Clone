@@ -1,5 +1,6 @@
 body {
-  margin-top: -0.1em;
+  margin-top: 0em;
+  margin-left: 0em;
   font-family: "Roboto", sans-serif;
 }
 
@@ -20,7 +21,6 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
-  border: 1px solid #0e16ae;
 }
 
 /* MAIN NAVIGATION BAR START */
@@ -45,6 +45,8 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
   height: 25px;
   background-color: #ececec;
 }
@@ -138,7 +140,7 @@ ul {
 
 .second-nav .logo {
   margin-left: -20px;
-  padding-right: 25px;
+  padding-right: 65px;
 }
 
 .second-nav .logo img {
