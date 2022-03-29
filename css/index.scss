@@ -1,10 +1,15 @@
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
 body {
 	margin-top: 0em;
 	margin-left: 0em;
 	font-family: "Roboto", sans-serif;
 }
 a {
-	text-decoration: none;
+	text-decoration: none !important;
+	color: #000000 !important;
 }
 ul {
 	list-style: none;
@@ -20,7 +25,7 @@ ul {
 .main-nav {
 	position: sticky;
 	top: 0;
-	z-index: 5;
+	z-index: 10;
 	ul {
 		position: sticky;
 		top: 0;
@@ -59,15 +64,15 @@ ul {
 .second-nav {
 	background-color: #ffffff;
 	object-fit: contain;
-	border: 1px solid magenta;
 	padding: 10px;
 	position: sticky;
 	top: 25px;
 	margin-top: -1em;
-	z-index: 2;
+	z-index: 9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 60px;
 	.search-bar {
 		padding-right: 25px;
 		display: flex;
@@ -116,3 +121,73 @@ ul {
 }
 
 /* SECOND NAVIGATION BAR END */
+
+/* THIRD NAVIGATION BAR START */
+
+.ad-run {
+	position: absolute;
+	z-index: -1;
+	background-image: url(../images/ad.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 99.7%;
+	height: 330px;
+	margin-top: 100px;
+}
+
+.third-nav {
+	position: sticky;
+	top: 105px;
+	z-index: 19;
+	height: 344px;
+	margin-top: 0em;
+	ul {
+		// display: none;
+		width: 200px;
+		height: 344px;
+		margin-left: 13em;
+		margin-top: 0em;
+		text-align: left;
+
+		li {
+			margin-left: 0em;
+			background-color: #ffffff;
+			&:hover {
+				background-color: #e5f7fa;
+			}
+			&:hover a {
+				color: rgb(138, 186, 206);
+			}
+			a {
+				padding-left: 15px;
+				color: #000000;
+				line-height: 27px;
+				font-size: 13px;
+			}
+		}
+	}
+	.drop {
+		margin-left: 15.5em;
+
+		text-align: center;
+		display: inline-block;
+		width: 200px;
+		background-color: #ffffff;
+	}
+	.undoer,
+	:target {
+		display: none;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	:target + .undoer {
+		display: block;
+	}
+	:target ~ ul {
+		visibility: hidden;
+	}
+}
+
+/* THIRD NAVIGATION BAR END */

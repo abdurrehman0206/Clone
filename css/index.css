@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   margin-top: 0em;
   margin-left: 0em;
@@ -5,7 +9,8 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #000000 !important;
 }
 
 ul {
@@ -28,7 +33,7 @@ ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 10;
 }
 
 .main-nav ul {
@@ -77,13 +82,12 @@ ul {
   background-color: #ffffff;
   -o-object-fit: contain;
      object-fit: contain;
-  border: 1px solid magenta;
   padding: 10px;
   position: -webkit-sticky;
   position: sticky;
   top: 25px;
   margin-top: -1em;
-  z-index: 2;
+  z-index: 9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,6 +97,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 60px;
 }
 
 .second-nav .search-bar {
@@ -161,4 +166,78 @@ ul {
 }
 
 /* SECOND NAVIGATION BAR END */
+/* THIRD NAVIGATION BAR START */
+.ad-run {
+  position: absolute;
+  z-index: -1;
+  background-image: url(../images/ad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 99.7%;
+  height: 330px;
+  margin-top: 100px;
+}
+
+.third-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 105px;
+  z-index: 19;
+  height: 344px;
+  margin-top: 0em;
+}
+
+.third-nav ul {
+  width: 200px;
+  height: 344px;
+  margin-left: 13em;
+  margin-top: 0em;
+  text-align: left;
+}
+
+.third-nav ul li {
+  margin-left: 0em;
+  background-color: #ffffff;
+}
+
+.third-nav ul li:hover {
+  background-color: #e5f7fa;
+}
+
+.third-nav ul li:hover a {
+  color: #8abace;
+}
+
+.third-nav ul li a {
+  padding-left: 15px;
+  color: #000000;
+  line-height: 27px;
+  font-size: 13px;
+}
+
+.third-nav .drop {
+  margin-left: 15.5em;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  background-color: #ffffff;
+}
+
+.third-nav .undoer,
+.third-nav :target {
+  display: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.third-nav :target + .undoer {
+  display: block;
+}
+
+.third-nav :target ~ ul {
+  visibility: hidden;
+}
+
+/* THIRD NAVIGATION BAR END */
 /*# sourceMappingURL=index.css.map */
