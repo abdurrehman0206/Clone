@@ -2,6 +2,10 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  background-color: #F5F5F5;
+}
+
 body {
   margin: 0em;
   font-family: "Roboto", sans-serif;
@@ -347,6 +351,10 @@ ul {
           justify-content: space-between;
 }
 
+.DarazMall .daraz-mall-features .daraz-mall-content {
+  background: white;
+}
+
 .DarazMall .daraz-mall-features .daraz-mall-content a {
   display: inline-block;
   width: 188px;
@@ -396,6 +404,7 @@ ul {
 }
 
 .categories .categories-features .categories-content {
+  background: white;
   border: 1px solid rgba(128, 128, 128, 0.246);
 }
 
@@ -440,6 +449,7 @@ ul {
 }
 
 .just-for-you .just-for-you-features .just-for-you-content {
+  background: white;
   margin-top: 5px;
 }
 
