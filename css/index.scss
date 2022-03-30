@@ -475,10 +475,11 @@ ul {
 			border-radius: 10px;
 			background-color: black;
 			border: 1px solid white;
-
+			&:hover {
+				transform: scale(1.1, 1.1);
+			}
 			a {
 				justify-content: center;
-
 				display: flex;
 				flex-wrap: wrap;
 				img {
@@ -512,7 +513,6 @@ ul {
 	justify-content: center;
 	.second-footer-features {
 		width: 1195px;
-
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -524,6 +524,9 @@ ul {
 				img {
 					width: 50px;
 				}
+				:hover {
+					transform: scale(1.2, 1.2);
+				}
 			}
 		}
 		.second-footer-content-di {
@@ -532,6 +535,9 @@ ul {
 					width: 36px;
 					height: 36px;
 				}
+				:hover {
+					transform: scale(1.2, 1.2);
+				}
 			}
 		}
 		.second-footer-content-fu {
@@ -539,6 +545,9 @@ ul {
 				img {
 					width: 36px;
 					height: 36px;
+				}
+				:hover {
+					transform: scale(1.2, 1.2);
 				}
 			}
 		}
