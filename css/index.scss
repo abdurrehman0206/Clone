@@ -3,10 +3,10 @@
 }
 
 body {
-	margin-top: 0em;
-	margin-left: 0em;
+	margin:0em;
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
+	max-width: 100%;
 }
 a {
 	text-decoration: none;
@@ -20,6 +20,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
+	
 	
 }
 .mid-container {
@@ -417,7 +418,7 @@ ul {
 	display: flex;
 	justify-content: center;
 	background-color: #2e2e54;
-
+	max-width: 100%;
 	.footer-features {
 		width: 1195px;
 		display: flex;
