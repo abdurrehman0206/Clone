@@ -642,4 +642,20 @@ ul {
   width: 36px;
   height: 36px;
 }
+
+.second-footer .second-footer-features .second-footer-content-fu a img {
+  width: 36px;
+  height: 36px;
+}
+
+.second-footer .second-footer-features .second-footer-content-vb a img {
+  width: 156px;
+}
+
+.copyright {
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  line-height: 18px;
+}
 /*# sourceMappingURL=index.css.map */

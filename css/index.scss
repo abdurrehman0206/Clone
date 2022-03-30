@@ -7,7 +7,6 @@ body {
 	margin-left: 0em;
 	font-family: "Roboto", sans-serif;
 	font-weight: normal;
-	
 }
 a {
 	text-decoration: none;
@@ -513,21 +512,26 @@ ul {
 			}
 		}
 		.second-footer-content-fu {
-			h1 {
-			}
 			a {
 				img {
+					width: 36px;
+					height: 36px;
 				}
 			}
 		}
 		.second-footer-content-vb {
-			h1 {
-			}
 			a {
 				img {
+					width: 156px;
 				}
 			}
 		}
 	}
 }
 // Second Footer End
+.copyright {
+	text-align: center;
+	color: #333333;
+	font-size: 18px;
+	line-height: 18px;
+}
