@@ -27,14 +27,14 @@ ul {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	// position: absolute;
+	margin-top: 330px;
 }
 
 /* MAIN NAVIGATION BAR START */
 .main-nav {
 	position: sticky;
 	top: 0;
-	z-index: 10;
+	z-index: 99;
 	height: 25px;
 	background-color: #ececec;
 	display: flex;
@@ -51,7 +51,6 @@ ul {
 		padding-left: 0;
 		li {
 			font-size: 12px;
-			// padding-right: 1.7rem;
 			a {
 				color: #000000;
 				&:hover {
@@ -75,12 +74,10 @@ ul {
 
 .second-nav {
 	background-color: #ffffff;
-	// object-fit: contain;
-	padding: 10px;
 	position: sticky;
 	top: 25px;
 	margin-top: -1em;
-	z-index: 9;
+	z-index: 10;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -95,7 +92,6 @@ ul {
 				width: 45px;
 				max-width: 100%;
 				max-height: 100%;
-				/* object-fit: contain; */
 			}
 		}
 		input {
@@ -135,42 +131,47 @@ ul {
 /* SECOND NAVIGATION BAR END */
 
 /* THIRD NAVIGATION BAR START */
-
-.ad-run {
+.ad-container {
+	display: flex;
 	position: absolute;
-	z-index: -1;
-	background-image: url(../images/ad.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 99.7%;
-	height: 330px;
+	height: 344px;
+	width: 100%;
 	margin-top: 100px;
+	.ad-run {
+		z-index: -1;
+		background-image: url(../images/ad.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		width: 100%;
+		height: 344px;
+	}
 }
 
 .third-nav {
-	// position: sticky;
-	// top: 105px;
-	z-index: 5;
-	height: 344px;
-	margin-top: 0em;
-
+	height: 25px;
+	background: white;
+	display: flex;
+	position: sticky;
+	top: 85px;
+	z-index: 9;
+	padding: 0px;
+	box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.575);
 	.category-drop {
-		margin-left: 13em;
 		margin-top: 0em;
-
+		padding-left: 45px;
 		li {
-			width: 200px;
-			background: rgb(255, 255, 255);
 			.cat-head {
+				padding-left: 0;
 				display: inline-block;
-				width: 200px;
+				// width: 200px;
 				text-align: center;
 				padding: 3px;
 			}
 			.sub-menu {
+				padding-left: 0;
 				margin-top: 0em;
-				margin-left: 13em;
+				// margin-left: 13em;
 				visibility: hidden;
 				opacity: 0;
 				width: 200px;
@@ -206,6 +207,7 @@ ul {
 	.category-drop li .sub-menu:hover,
 	.category-drop li .sub-menu:focus {
 		visibility: visible;
+		box-shadow: 0px 2px 8px -2px rgba(0, 0, 0, 0.575);
 		opacity: 1;
 		display: block;
 		transition: all 0.5s ease;
