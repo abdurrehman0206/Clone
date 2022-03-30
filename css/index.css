@@ -484,6 +484,24 @@ ul {
           box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.358);
 }
 
+.load-more {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.load-more a {
+  display: inline-block;
+  border: 1px solid #f85606;
+  width: 400px;
+  height: 40px;
+  color: #f85606;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;

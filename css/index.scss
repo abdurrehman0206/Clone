@@ -394,6 +394,23 @@ ul {
 	}
 }
 // just-for-you End
+.load-more{
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px;
+	
+	text-align: center;
+	a{
+		display: inline-block;
+		border: 1px solid #f85606;
+		width:400px;
+		height:40px;
+		color:#f85606;
+		font-size:14px;
+		font-weight:bold;
+		line-height: 40px;
+	}
+}
 // Footer Start
 .footer {
 	display: flex;
