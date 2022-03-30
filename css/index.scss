@@ -6,6 +6,8 @@ body {
 	margin-top: 0em;
 	margin-left: 0em;
 	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	box-sizing: border-box;
 }
 a {
 	text-decoration: none;
@@ -19,6 +21,12 @@ ul {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
+}
+.mid-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// position: absolute;
 }
 
 /* MAIN NAVIGATION BAR START */
@@ -63,7 +71,7 @@ ul {
 
 .second-nav {
 	background-color: #ffffff;
-	object-fit: contain;
+	// object-fit: contain;
 	padding: 10px;
 	position: sticky;
 	top: 25px;
@@ -209,15 +217,23 @@ ul {
 
 // QUICK LINKS START
 .quick-links {
+	width: 1195px;
+	display: flex;
+
 	ul {
+		width: 1195px;
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between !important;
 		margin-left: 0em;
 		li {
-			display: flex;
+			text-align: center;
+			// display: flex;
 			width: 385px;
 			height: 40px;
 			border-radius: 50px;
+			&:first-child {
+				margin-left: -35px;
+			}
 
 			a {
 				display: flex;
@@ -241,3 +257,137 @@ ul {
 	}
 }
 // QUICK LINKS END
+.section-heading {
+	display: flex;
+	padding: 10px;
+	font-size: 22px;
+	color: #424242c3;
+	margin-bottom: 0em;
+}
+// DarazMall
+.DarazMall {
+	width: 1195px;
+
+	.daraz-mall-features {
+		display: flex;
+
+		justify-content: space-between;
+		.daraz-mall-content {
+			a {
+				display: inline-block;
+				width: 188px;
+				height: 271px;
+				text-align: center;
+
+				.main-img {
+					width: 186px;
+					height: 188px;
+				}
+
+				.icon-img {
+					margin-top: -30px;
+					width: 44px;
+					width: 44px;
+				}
+				h2 {
+					font-size: 14px;
+					color: #212121;
+					line-height: 14px;
+				}
+				p {
+					font-size: 12px;
+					color: #9e9e9e;
+					line-height: 12px;
+				}
+				&:hover {
+					box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.358);
+				}
+			}
+		}
+	}
+}
+//Daraz Mall End
+// categories Start
+
+.categories {
+	width: 1195px;
+	.categories-features {
+		display: flex;
+		flex-wrap: wrap;
+
+		border-left: transparent !important;
+
+		.categories-content {
+			border: 1px solid rgba(128, 128, 128, 0.246);
+
+			a {
+				display: inline-block;
+				width: 147.3px;
+				height: 147.3px;
+				text-align: center;
+				img {
+					margin-top: 6px;
+					width: 80px;
+					height: 80px;
+				}
+				p {
+					font-size: 14px;
+					line-height: 18px;
+					color: #212121;
+				}
+				&:hover {
+					z-index: 9;
+					box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.358);
+				}
+			}
+		}
+	}
+}
+// Categories End
+// just-for-you Start
+.just-for-you {
+	width: 1195px;
+	.just-for-you-features {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.just-for-you-content {
+			margin-top: 5px;
+			a {
+				display: inline-block;
+				width: 188px;
+				height: 325px;
+
+				img {
+					width: 188px;
+					height: 189px;
+				}
+				h2 {
+					padding-left: 10px;
+					font-size: 14px;
+					line-height: 18px;
+					color: #212121;
+				}
+				h1 {
+					padding-left: 10px;
+					font-size: 18px;
+					line-height: 22px;
+					color: #f85606;
+				}
+				p {
+					padding-left: 10px;
+					font-size: 12px;
+					line-height: 14px;
+					color: #9e9e9e;
+					span {
+						color: #212121;
+					}
+				}
+				&:hover {
+					box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.358);
+				}
+			}
+		}
+	}
+}
+// just-for-you End
