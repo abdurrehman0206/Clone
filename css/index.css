@@ -658,4 +658,28 @@ ul {
   font-size: 18px;
   line-height: 18px;
 }
+
+.third-footer .third-footer-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid magenta;
+  background-color: #F1F1F1;
+}
+
+.third-footer .third-footer-features .third-footer-content {
+  padding: 25px;
+}
+
+.third-footer .third-footer-features .third-footer-content h1 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #606060;
+}
+
+.third-footer .third-footer-features .third-footer-content p {
+  font-size: 10px;
+  line-height: 16px;
+  color: #888888;
+}
 /*# sourceMappingURL=index.css.map */
