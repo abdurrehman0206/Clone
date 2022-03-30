@@ -325,6 +325,7 @@ ul {
 				width: 147.3px;
 				height: 147.3px;
 				text-align: center;
+
 				img {
 					margin-top: 6px;
 					width: 80px;
@@ -391,3 +392,88 @@ ul {
 	}
 }
 // just-for-you End
+// Footer Start
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: #2e2e54;
+
+	.footer-features {
+		width: 1195px;
+		border: 1px solid magenta;
+		display: flex;
+		justify-content: space-between;
+
+		.footer-content {
+			padding: 10px;
+			h1 {
+				color: #ffffff;
+				font-size: 18px;
+				line-height: 18px;
+				text-align: center;
+			}
+			ul {
+				li {
+					margin-left: -2.5em;
+					a {
+						color: #ffffff;
+						font-size: 12px;
+						line-height: 18px;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+	.download-footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+
+		margin-right: 100px;
+		.footer-content-qr {
+			width: 100px;
+			height: 100px;
+			img {
+				width: 100px;
+				height: 100px;
+				border-radius: 10px;
+			}
+		}
+		.footer-content-dw {
+			display: flex;
+			align-items: center;
+			width: 120px;
+			height: 40px;
+			border-radius: 10px;
+			background-color: black;
+			border: 1px solid white;
+
+			a {
+				justify-content: center;
+
+				display: flex;
+				flex-wrap: wrap;
+				img {
+					padding-top: 10px;
+					width: 25px;
+					height: 25px;
+				}
+				p {
+					font-size: 10px;
+					color: #ffffff;
+				}
+				h2 {
+					margin-left: 1em;
+					margin-top: -1em;
+					font-size: 12px;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
+// Footer End
