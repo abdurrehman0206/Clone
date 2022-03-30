@@ -533,10 +533,6 @@ ul {
           justify-content: space-between;
 }
 
-.footer .footer-features .footer-content {
-  padding: 10px;
-}
-
 .footer .footer-features .footer-content h1 {
   color: #ffffff;
   font-size: 18px;
@@ -572,7 +568,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 100px;
 }
 
 .footer .download-footer .footer-content-qr {
